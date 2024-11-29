@@ -21,13 +21,11 @@
             text-decoration: none;
             color: inherit;
         }
-
-        /* Header */
-        header {
+        header, footer {
             background-color: #1e90ff;
             color: white;
             text-align: center;
-            padding: 1.5rem 1rem;
+            padding: 1.5rem 0;
             border-radius: 0 0 20px 20px;
         }
         header h1 {
@@ -37,8 +35,6 @@
             font-size: 1rem;
             margin-top: 0.5rem;
         }
-
-        /* Navigation */
         nav {
             display: flex;
             justify-content: center;
@@ -59,8 +55,6 @@
         nav a:hover {
             color: #0056b3;
         }
-
-        /* Hero Section */
         .hero {
             display: flex;
             justify-content: center;
@@ -99,8 +93,6 @@
         .hero button:hover {
             background: rgba(255, 255, 255, 0.4);
         }
-
-        /* Section Styling */
         .section {
             padding: 3rem 1.5rem;
             text-align: center;
@@ -115,15 +107,13 @@
             max-width: 600px;
             margin: 0 auto 2rem;
         }
-
-        /* Services, Gallery, and Testimonials */
         .services, .gallery, .testimonials {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1.5rem;
         }
         .card {
-            background: #003366; /* Dark Blue Background */
+            background: #1e90ff; /* Dark Blue Background */
             color: white;
             border: none;
             border-radius: 20px;
@@ -136,13 +126,10 @@
             transform: translateY(-5px);
             box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
         }
-
-        /* Footer */
         footer {
             font-size: 0.9rem;
             border-radius: 20px 20px 0 0;
             padding: 1.5rem;
-            text-align: center;
         }
         footer p {
             margin: 0.5rem 0;
@@ -154,47 +141,6 @@
         }
         footer a:hover {
             color: #f0f0f0;
-        }
-
-        /* Mobile and Tablet Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
-            .section h2 {
-                font-size: 1.5rem;
-            }
-            .card {
-                padding: 1rem;
-            }
-            .services, .gallery, .testimonials {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.8rem;
-            }
-            .hero h1 {
-                font-size: 2rem;
-            }
-            .hero p {
-                font-size: 0.9rem;
-            }
-            .section h2 {
-                font-size: 1.3rem;
-            }
-            .hero button {
-                padding: 0.5rem 1rem;
-                font-size: 0.9rem;
-            }
         }
     </style>
 </head>
@@ -219,7 +165,7 @@
         <div>
             <h1>Restore the Shine!</h1>
             <p>Professional power washing services for homes, businesses, and more.</p>
-            <a href="https://your-link-here.com">
+            <a href="https://forms.gle/pV3s1UN8sqpBz1Cr8">
                 <button>Get a Free Quote</button>
             </a>
         </div>
